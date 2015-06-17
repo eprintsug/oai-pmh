@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://etheses.test.whiterose.ac.uk/id/epm/oaipmh'>
+  <epmid>oaipmh</epmid>
+  <uri>http://etheses.test.whiterose.ac.uk/id/epm/oaipmh</uri>
+  <documents>
+    <document>
+      <files>
+        <file>
+          <filename>cfg.d/zz_oaipmh_patch_core_EPrints_OpenArchives.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>23b69edd2f3a378afa5a38cc1fa5f9b9</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>3889</filesize>
+        </file>
+        <file>
+          <filename>epm/oaipmh/cgi/oai2</filename>
+          <mime_type>text/x-perl</mime_type>
+          <hash>ef405b0da10878e7f060f3c3cacd9db0</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>22269</filesize>
+        </file>
+      </files>
+      <mime_type>text/x-perl</mime_type>
+      <format>text</format>
+      <main>epm/oaipmh/cgi/oai2</main>
+      <content>install</content>
+    </document>
+  </documents>
+  <version>1.0.0</version>
+  <creators>
+    <item>
+      <name>
+        <family>Salter</family>
+        <given>John</given>
+      </name>
+      <id>j.salter@leeds.ac.uk</id>
+    </item>
+  </creators>
+  <title>OAI-PMH improvements</title>
+  <description>Represent any record that has a datestamp (e.g. was live at some point) that isn&apos;t in the &apos;archive&apos; dataset as deleted.</description>
+</epm>
